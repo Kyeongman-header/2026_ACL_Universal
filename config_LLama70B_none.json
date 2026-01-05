@@ -1,0 +1,19 @@
+{
+  "model_name": "meta-llama/Llama-3.1-70B-Instruct",
+  "prompt": null,
+  "num_iteration": 15,
+  "dataset": "reedsyPrompts",
+  "generation_length": 200,
+  "topk_k": 20,
+  "steps":200,
+  "temperature": 0,
+  "sim_penalty_version": "max",
+  "rep_penalty_version": "kl",
+  "use_rep_penalty": false,
+  "use_hidden_penalty": false,
+  "rep_max_constant": 1.3,
+  "hidden_max_constant": 1.0,
+  "L0": 42,
+  "sharpness": 0.1,
+  "degen_threshold": 0.9
+}

@@ -1,0 +1,30 @@
+{
+  "model_name": "stabilityai/stable-diffusion-3.5-large",
+  "num_iteration": 15,
+  "steps": 50,
+  "guidance_scale": 7.5,
+  "height": 512,
+  "width": 512,
+
+  "use_rep_penalty": false,
+  "use_hidden_penalty": false,
+  "rep_max_constant": 0.01,
+  "hidden_max_constant": 0.01,
+  "L0": 20,
+  "sharpness": 0.5,
+  "seed": 42,
+  "randomize_seed": true,
+
+  "coco_split": "validation",
+  "coco_year": "2017",
+  "coco_pick": "first",
+
+  "avoid_text": null,
+  "target_text": null,
+  "avoid_image_path": null,
+  "target_image_path": null,
+  "clip_model_id": "openai/clip-vit-base-patch32",
+  "use_llm_diversity": true,
+  "llm_diversity_model": "gpt-4o",
+  "llm_max_images": 8
+}
