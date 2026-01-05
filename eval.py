@@ -13,9 +13,7 @@ from pycocoevalcap.tokenizer.ptbtokenizer import PTBTokenizer
 import re, json, math
 from openai import OpenAI
 
-client = OpenAI(
-    api_key="",
-)
+client = OpenAI()
 
 def _llm_json_score(system_prompt: str, user_prompt: str, model_name="gpt-4.1-2025-04-14") -> dict | None:
     """
