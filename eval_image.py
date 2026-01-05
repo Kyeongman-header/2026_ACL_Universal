@@ -16,7 +16,7 @@ try:
 except Exception:
     OpenAI = None  # 패키지 없을 때 대비
 
-client = OpenAI(api_key="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",)
+client = OpenAI(api_key="",)
 
 def _sha256_pil(img: Image.Image) -> str:
     return hashlib.sha256(img.tobytes()).hexdigest()

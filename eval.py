@@ -14,7 +14,7 @@ import re, json, math
 from openai import OpenAI
 
 client = OpenAI(
-    api_key="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",
+    api_key="",
 )
 
 def _llm_json_score(system_prompt: str, user_prompt: str, model_name="gpt-4.1-2025-04-14") -> dict | None:
